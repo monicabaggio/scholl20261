@@ -12,6 +12,10 @@ img{
         background-color: antiquewhite;
         justify-content: space-between;
     }
+    .content{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1 fr;
+    }
 }
 
 @media(min-width: 1024px) {
@@ -20,8 +24,10 @@ img{
         justify-content: space-around;
     }
     .content{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
     }
+    /* .aluno{
+        object-fit: cover;
+    } */
 
 }
