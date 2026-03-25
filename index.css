@@ -1,0 +1,22 @@
+h1 {
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .menu {
+        display: flex;
+        background-color: antiquewhite;
+        justify-content: space-between;
+    }
+}
+
+@media(min-width: 1024px) {
+    .menu {
+        background-color: aqua;
+        justify-content: space-around;
+    }
+    .content{
+        display: flex;
+    }
+
+}
